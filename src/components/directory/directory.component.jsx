@@ -1,6 +1,6 @@
-import "./categories.styles.scss";
+import "./directory.styles.scss";
 import CategoryItem from "../category-item/category-item.component";
-const Categories = () => {
+const Directory = () => {
   const categories = [
     {
       id: 1,
@@ -37,4 +37,4 @@ const Categories = () => {
     </div>
   );
 };
-export default Categories;
+export default Directory;
